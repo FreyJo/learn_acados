@@ -231,6 +231,7 @@ if __name__ == '__main__':
     ocpSolver.set(0, 'x', x)
     
     ocp_status = ocpSolver.solve()
+    ocpSolver.print_statistics()
 
     if ocp_status != 0:
         print('OCP_SOL: ocp_status =', ocp_status, ', exiting')
