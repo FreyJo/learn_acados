@@ -13,7 +13,6 @@ from casadi import SX, Function, cross, diag, dot, inv, norm_2, sqrt, vertcat
 from sx_quaternion import (quat_derivative, quat_err, rotate_vec3,
                            sx_quat_inverse, sx_quat_multiply,
                            sx_quat_normalize)
-from trajectory import generate_trajectory_0
 
 
 def get_simplequad_model():
